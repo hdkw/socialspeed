@@ -1,14 +1,17 @@
 # socialspeed
 
-- [goal](#goal)
+- [Goal](#goal)
+- [Social speed?](#explanation-of-generalized-speed)
 
-##Goal:
+##Goal
 
 Get people together to create a calculator for the lenght of a trip using the concept of generalized speed from Ivan Illich.
 
-Short explanation of generalized speed:
+##Explanation of generalized speed
 
 The generalized speed (also called social speed) is a speed that takes into account the time spent to 'afford' the trip. 
+
+###Examples:
 
 For example if Sharon can use her car to ride 200kms from A to B in 4 hours, her speed is 50km/h.
 But taking into account the price of gaz, tolls, parking and other expenses from car ownership this trip costs 40usd.
@@ -16,9 +19,11 @@ If her hourly salary is 20usd/hour then it means Sharon has to spend 2 hour work
 The generalized speed of Sharon is thus: 200km / (4h trip duration + 2h time spent to pay for the trip)
 = 33km/h
 
-If Sharon prefers to use the train that takes 4 hours for the same distance. Her speed is slower at 40km/h but the ticket only costs 15usd. She only has to work 45 minutes to afford the ticket.
-Her generalized speed with the train is consequently: 200km / (5h trip dureation + 45min time spent to pay for the trip)
-=
+If Sharon prefers to use the train that takes 4 and a half hours for the same distance. Her speed is slower at 44km/h but the ticket only costs 10usd. She only has to work 30 minutes to afford the ticket.
+Her generalized speed with the train is consequently: 200km / (4.5h trip duration + 30min time spent to pay for the trip)
+= 40km/h
+
+In this example one can see that although the trip itself is shorter with the car, taking the train is faster for Sharon if she thinks about the total amount of time she dedicates to transportation (which include earning money to finance the trip).
 
 
 
