@@ -1,19 +1,24 @@
 # socialspeed
 
-- [Goal](#goal)
+- [Project](#project)
 - [Social speed?](#explanation-of-generalized-speed)
+- [I need your help!](#i-need-your-help)
 
-##Goal
+##Project
 
-Get people together to create a calculator for the lenght of a trip using the concept of generalized speed from Ivan Illich.
+Get people together to create an open source calculator for the lenght of a trip using the concept of generalized speed from Ivan Illich.
 
-##Social speed? Explanation 
+##Social speed? 
+
+###Short explanation
 
 The generalized speed (also called social speed) is a speed that takes into account the time spent to 'afford' the trip. 
 
+[Read more](http://ranprieur.com/readings/illichcars.html) or see some examples below.
+
 ###Examples:
 
-For example if Sharon can use her car to ride 200kms from A to B in 4 hours, her speed is 50km/h.
+If Sharon can use her car to ride 200kms from A to B in 4 hours, her speed is 50km/h.
 But taking into account the price of gaz, tolls, parking and other expenses from car ownership this trip costs 40usd.
 If her hourly salary is 20usd/hour then it means Sharon has to spend 2 hours working to pay this trip. The generalized speed takes into account both the duration of the trip and the time spent to pay the trip.
 The generalized speed of Sharon is thus: 200km / (4h trip duration + 2h time spent to pay for the trip)
@@ -34,7 +39,12 @@ On yearly average people spend 540 hours in their car and travel 21687km. Their 
 21687km / (540 trip duration + 676 time spent to pay for the trip) =
 18km/h 
 
-The generalized speed of American society with a car in this example is estimated here at 18km/h, which is the average speed of a bicycle. Including  other costs related to car such as pollution, climate change and oil conflicts would  decrease this generalized speed even further.
+The generalized speed of American society with a car in this example is estimated here at 18km/h, which is the average speed of a bicycle. Including  other costs related to car such as pollution, climate change and oil conflicts would  decrease this generalized speed even closer to that of a pedestrian (6km/h).
+
+##I need your help!
+
+
+
 
 https://github.com/Desertsnowman/Caldera-Forms
 http://noodlejs.com/ (can scrap data from websites)
@@ -47,8 +57,6 @@ FRENCH
 
 http://carfree.fr/index.php/2005/07/16/vers-lautomobile-immobile/
 
-ENGLISH
 
-http://ranprieur.com/readings/illichcars.html
 
 
