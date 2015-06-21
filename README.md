@@ -1,7 +1,7 @@
 # socialspeed
 
 - [Project](#project)
-- [Social speed?](#explanation-of-generalized-speed)
+- [Social speed?](#social-speed)
 - [I need your help!](#i-need-your-help)
 
 ##Project
@@ -43,20 +43,53 @@ The generalized speed of American society with a car in this example is estimate
 
 ##I need your help!
 
+The first aim for the calculator is to place it on the French carfree website (carfree.fr). 
+I'm new to github and don't know much about web programming. That's why any help is welcome for this project.
+The site carfree.fr uses wordpress. 
+
+###Work done so far
+
+I've found [caldera forms](https://github.com/Desertsnowman/Caldera-Forms) which is a free plugin for wordpress. I could make a nice first calculator draft (sorry it's in French):
+![piccalculator](https://lh3.googleusercontent.com/QSXYiTiPT61n6FA43XNTQDWSmyZ6UhlWmx9NY5OMOg=w386-h400-no)
+
+This basic picture  shows that input fields are:
+
+  +Type of transportation  
+      Walking
+      Cycling
+      Train
+      Car
+      Rideshare
+      Hitchhiking
+      ..
+    
+  +Hourly salary
+  
+  +Distance and time taken for the trip
+  
+  +Cost of the transportation per kilometer
+  
+The outputs are the generalized time and speed for the trip.
+  
+###I need help for the following
+
+####Map integration
+
+I would like the user to be able to input a place of departure and destination from google maps or something equivalent. Then the time and distance for the trip are automaticaly calculated and fed as input for the form.
+Of course the trip distance and time need to depend on the transportation choosen.  
+
+I saw that in this [project](https://github.com/hitautodestruct/trip-price-calculator) you can [enter a start and end point with autocompletion](http://hitautodestruct.github.io/trip-price-calculator/) from google map. 
+In this [other project](https://github.com/wildlyinaccurate/trip-planner), [the trip distance and time](https://wildlyinaccurate.com/trip-planner/) is calculated.
 
 
 
-https://github.com/Desertsnowman/Caldera-Forms
-http://noodlejs.com/ (can scrap data from websites)
-https://github.com/hpneo/gmaps (calculte itinarary from google map to give trip duration and distance)
-https://github.com/wildlyinaccurate/trip-planner (calculte itinarary from google map to give trip duration and distance)
-https://github.com/hitautodestruct/trip-price-calculator (autofill location from google maps)
+
 
 
 FRENCH
-
 http://carfree.fr/index.php/2005/07/16/vers-lautomobile-immobile/
-
+http://noodlejs.com/ (can scrap data from websites)
+https://github.com/hpneo/gmaps (calculte itinerary from google map to give trip duration and distance)
 
 
 
