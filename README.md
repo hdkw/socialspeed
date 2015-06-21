@@ -39,9 +39,17 @@ On yearly average people spend 540 hours in their car and travel 21687km. Their 
 21687km / (540 trip duration + 676 time spent to pay for the trip) =
 18km/h 
 
-The generalized speed of American society with a car in this example is estimated here at 18km/h, which is the average speed of a bicycle. Including  other costs related to car such as pollution, climate change and oil conflicts would  decrease this generalized speed even closer to that of a pedestrian (6km/h).
+The generalized speed of American society with a car in this example is estimated here at 18km/h, which is the average speed of a bicycle. Including  other costs related to car such as pollution, climate change and oil conflicts would  decrease this generalized speed even lower to that of a pedestrian (6km/h).
 
 ##I need your help!
+
+###Why you should  help?
+
+This calculator aims to contribute to decrease the numbers of cars on this planet by helping people realize that the car is actualy one of the slowest transportation when generalized time is considered.
+
+Each car that disappears means less chances for kids to develop eczema, less chances of being killed on the public space, more saving public money, less impact on climate change,  less ressources consummed.. Taking part in that will make you a hero basicaly. :)
+
+###Goal
 
 The first aim for the calculator is to place it on the French carfree website (carfree.fr). 
 I'm new to github and don't know much about web programming. That's why any help is welcome for this project.
@@ -55,13 +63,20 @@ I've found [caldera forms](https://github.com/Desertsnowman/Caldera-Forms) which
 This basic picture  shows that input fields are:
 
   +Type of transportation  
-      Walking
-      Cycling
-      Train
-      Car
-      Rideshare
-      Hitchhiking
-      ..
+  
+      -Walking
+      
+      -Cycling
+      
+      -Train
+      
+      -Car
+      
+      -Rideshare
+      
+      -Hitchhiking
+      
+      -..
     
   +Hourly salary
   
@@ -69,9 +84,19 @@ This basic picture  shows that input fields are:
   
   +Cost of the transportation per kilometer
   
-The outputs are the generalized time and speed for the trip.
+The outputs are the generalized time and speed for the trip with the formula:
+
+```
+Generalized-time = trip-time + (trip-distance * cost-per-km) / hourly-salary
+
+Generalized-speed = trip-distance / Generalized-time
+```
   
 ###I need help for the following
+
+####How to colaborate?
+
+I could install wordpress and the caldera plugin localy on my PC using [bitnami](https://bitnami.com/). But how can we share the code for the forms? Can bitnami install wordpress on a cloud provider? Or should I put the code on this repository?
 
 ####Map integration
 
@@ -79,6 +104,7 @@ I would like the user to be able to input a place of departure and destination f
 Of course the trip distance and time need to depend on the transportation choosen.  
 
 I saw that in this [project](https://github.com/hitautodestruct/trip-price-calculator) you can [enter a start and end point with autocompletion](http://hitautodestruct.github.io/trip-price-calculator/) from google map. 
+
 In this [other project](https://github.com/wildlyinaccurate/trip-planner), [the trip distance and time](https://wildlyinaccurate.com/trip-planner/) is calculated.
 
 
