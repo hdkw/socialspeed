@@ -43,17 +43,19 @@ The generalized speed of American society with a car in this example is estimate
 
 ##I need your help!
 
+I'm new to github and don't know much about web programming. That's why any help is welcome for this project. Let's work together!
+
 ###Why you should  help?
 
 This calculator aims to contribute to decrease the numbers of cars on this planet by helping people realize that the car is actualy one of the slowest transportation when generalized time is considered.
 
-Each car that disappears means less chances for kids to develop eczema, less chances of being killed on the public space, more saving public money, less impact on climate change,  less ressources consummed.. Taking part in that will make you a hero basicaly. :)
+Each car that disappears means less chances for kids to develop eczema or asthma, less chances of being killed on the public space, less public money spendings, less impact on climate change,  less ressources consummed and more social interactions.. Taking part in that will just make you a hero basicaly. :)
 
-###Goal
+###Goals
 
-The first step for the calculator is to place it on the French carfree website (carfree.fr). The calculator must be free and if it's technicaly possible open source. 
-I'm new to github and don't know much about web programming. That's why any help is welcome for this project.
+-The first step for the calculator is to place it on the French carfree website (carfree.fr). The calculator must be free and if it's technicaly possible open source. 
 The site carfree.fr uses wordpress. 
+
 
 ###Work done so far
 
@@ -96,7 +98,7 @@ Generalized-speed = trip-distance / Generalized-time
 
 ####How to colaborate?
 
-I could install wordpress and the caldera plugin localy on my PC using [bitnami](https://bitnami.com/). But how can we share the code for the forms? Can bitnami install wordpress on a cloud provider? Or should I put the code on this repository?
+I could install wordpress and the caldera plugin localy on my PC using [bitnami](https://bitnami.com/). But how can we share the code for the forms? Can bitnami install wordpress on a cloud provider? Or should I put the code on this repository? Can the calculator be written in another language? 
 
 ####Map integration
 
@@ -108,14 +110,6 @@ I saw that in this [project](https://github.com/hitautodestruct/trip-price-calcu
 In this [other project](https://github.com/wildlyinaccurate/trip-planner), [the trip distance and time](https://wildlyinaccurate.com/trip-planner/) is calculated.
 
 
-
-
-
-
-FRENCH
-http://carfree.fr/index.php/2005/07/16/vers-lautomobile-immobile/
-http://noodlejs.com/ (can scrap data from websites)
-https://github.com/hpneo/gmaps (calculte itinerary from google map to give trip duration and distance)
 
 
 
