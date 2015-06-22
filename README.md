@@ -6,7 +6,7 @@
 
 ##Project
 
-Get people together to create an open source calculator for the lenght of a trip using the concept of generalized speed from Ivan Illich.
+Get people together to create a calculator for the lenght of a trip using the concept of generalized speed from Ivan Illich.
 
 ##Social speed? 
 
@@ -51,7 +51,7 @@ Each car that disappears means less chances for kids to develop eczema, less cha
 
 ###Goal
 
-The first aim for the calculator is to place it on the French carfree website (carfree.fr). 
+The first step for the calculator is to place it on the French carfree website (carfree.fr). The calculator must be free and if it's technicaly possible open source. 
 I'm new to github and don't know much about web programming. That's why any help is welcome for this project.
 The site carfree.fr uses wordpress. 
 
