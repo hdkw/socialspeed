@@ -60,7 +60,11 @@ The site carfree.fr uses wordpress.
 ###Work done so far
 
 I've found [caldera forms](https://github.com/Desertsnowman/Caldera-Forms) which is a free plugin for wordpress. I could make a nice first calculator draft (sorry it's in French):
+
 ![piccalculator](https://lh3.googleusercontent.com/QSXYiTiPT61n6FA43XNTQDWSmyZ6UhlWmx9NY5OMOg=w386-h400-no)
+
+I made this form graphically with Caldera, the corresponding .json code for the calculator is in this repository (carfree-generalized-speed-calculator-export.json). Please note that I don't even know what is .json and this project doesn't have to .json especialy.
+
 
 This basic picture  shows that input fields are:
 
@@ -98,7 +102,7 @@ Generalized-speed = trip-distance / Generalized-time
 
 ####How to collaborate?
 
-I could install wordpress and the caldera plugin locally on my PC using [bitnami](https://bitnami.com/). But how can we share the code for the forms? Can bitnami install wordpress on a cloud provider? Or should I put the code on this repository? Can the calculator be written in another language? 
+I could install wordpress and the caldera plugin locally on my PC using [bitnami](https://bitnami.com/). I exported the .json file from caldera and put it in this repository (carfree-generalized-speed-calculator-export.json). Please tell me if I should use some special way to make it easy to collaborate, it's all new for me!
 
 ####Map integration
 
@@ -108,6 +112,8 @@ Of course the trip distance and time need to depend on the transportation chosen
 I saw that in this [project](https://github.com/hitautodestruct/trip-price-calculator) you can [enter a start and end point with autocompletion](http://hitautodestruct.github.io/trip-price-calculator/) from google map. 
 
 In this [other project](https://github.com/wildlyinaccurate/trip-planner), [the trip distance and time](https://wildlyinaccurate.com/trip-planner/) is calculated.
+
+Is it possible to mix all this with the form to have the destination picker, the map and the calculator all on the same page?
 
 ####Contact me!
 
