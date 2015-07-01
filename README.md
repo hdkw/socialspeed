@@ -55,18 +55,17 @@ Each car that disappears means less chances for kids to develop eczema or asthma
 
 -The first step for the calculator is to place it on the French carfree website (carfree.fr). The calculator must be free and if it's technically possible open source. 
 The site carfree.fr uses wordpress. 
+- test it on the site and improve it
+- Make a version that's easy to translate in other languages and make it avalaible to all
 
 
 ###Work done so far
 
-I've found [caldera forms](https://github.com/Desertsnowman/Caldera-Forms) which is a free plugin for wordpress. I could make a nice first calculator draft (sorry it's in French):
-
-![piccalculator](https://lh3.googleusercontent.com/QSXYiTiPT61n6FA43XNTQDWSmyZ6UhlWmx9NY5OMOg=w386-h400-no)
-
-I made this form graphically with Caldera, the corresponding .json code for the calculator is in this repository (carfree-generalized-speed-calculator-export.json). Please note that I don't even know what is .json and this project doesn't have to .json especialy.
+It's javascript with google map api for the calculator here:
+![http://codepen.io/hdkw/pen/RPxBJR](http://codepen.io/hdkw/pen/RPxBJR)
 
 
-This basic picture  shows that input fields are:
+Input fields are:
 
   +Type of transportation  
   
@@ -100,20 +99,8 @@ Generalized-speed = trip-distance / Generalized-time
   
 ###I need help for the following
 
-####How to collaborate?
-
-I could install wordpress and the caldera plugin locally on my PC using [bitnami](https://bitnami.com/). I exported the .json file from caldera and put it in this repository (carfree-generalized-speed-calculator-export.json). Please tell me if I should use some special way to make it easy to collaborate, it's all new for me!
-
-####Map integration
-
-I would like the user to be able to input a place of departure and destination from google maps or something equivalent. Then the time and distance for the trip are automatically calculated and fed as input for the form.
-Of course the trip distance and time need to depend on the transportation chosen.  
-
-I saw that in this [project](https://github.com/hitautodestruct/trip-price-calculator) you can [enter a start and end point with autocompletion](http://hitautodestruct.github.io/trip-price-calculator/) from google map. 
-
-In this [other project](https://github.com/wildlyinaccurate/trip-planner), [the trip distance and time](https://wildlyinaccurate.com/trip-planner/) is calculated.
-
-Is it possible to mix all this with the form to have the destination picker, the map and the calculator all on the same page?
+Improve the code here
+http://codepen.io/hdkw/pen/RPxBJR
 
 ####Contact me!
 
