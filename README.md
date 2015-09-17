@@ -62,7 +62,7 @@ The site carfree.fr uses wordpress.
 ###Work done so far
 
 It's javascript with google map api for the calculator here:
-![http://codepen.io/hdkw/pen/RPxBJR](http://codepen.io/hdkw/pen/RPxBJR)
+![http://codepen.io/hdkw/pen/rVZvmw](http://codepen.io/hdkw/pen/rVZvmw)
 
 
 Input fields are:
@@ -100,7 +100,7 @@ Generalized-speed = trip-distance / Generalized-time
 ###I need help for the following
 
 Improve the code here
-http://codepen.io/hdkw/pen/RPxBJR
+http://codepen.io/hdkw/pen/rVZvmw
 
 ####Contact me!
 
