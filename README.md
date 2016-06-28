@@ -53,17 +53,15 @@ Each car that disappears means less chances for kids to develop eczema or asthma
 
 ###Goals
 
--The first step for the calculator is to place it on the French carfree website (carfree.fr). The calculator must be free and if it's technically possible open source. 
-The site carfree.fr uses wordpress. 
-- test it on the site and improve it
-- Make a version that's easy to translate in other languages and make it avalaible to all
+- Have a trip calculator that gives the time and money it costs to afford the trip
+- Make a version that's easy to translate in other languages and make it avalaible to any website that wants to use it
 
 
 ###Work done so far
 
 It's javascript with google map api for the calculator here:
-![http://codepen.io/hdkw/pen/OyYzdB](http://codepen.io/hdkw/pen/OyYzdB)
-
+![http://codepen.io/hdkw/full/RRGLWR/](http://codepen.io/hdkw/full/RRGLWR/)
+June 2016: the calculator is finally functionnal, now time for the design phase!
 
 Input fields are:
 
@@ -81,7 +79,7 @@ Input fields are:
       
       -Hitchhiking
       
-      -..
+      -Plane
     
   +Hourly salary
   
@@ -99,8 +97,9 @@ Generalized-speed = trip-distance / Generalized-time
   
 ###I need help for the following
 
-Improve the code here
-http://codepen.io/hdkw/pen/OyYzdB
+Clean the code, improve the design of the calculator or provide feedback
+
+http://codepen.io/hdkw/full/RRGLWR/
 
 ####Contact me!
 
